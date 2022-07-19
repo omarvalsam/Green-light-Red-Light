@@ -2,7 +2,7 @@
 
 .box-rules {
     /* code within here will align the boxes to space out from each other  */
-    display: inline-block;
+    display: flex;
     width: 350px;
     height: 350px;
     
@@ -15,8 +15,36 @@
 .green-box{
     background-color: green;
 }
-body {
+.fav-box {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin: 5rem;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem;
+}
+.block{
+    width: 100%;
+    text-align: center;
+    font-size: 6vw;
+
+}
+button{
+background-color: white;
+border-color: beige;
+border-radius: 1px;
+height: 10%;
+margin: auto;
+border-radius: 3px;
+}
+@media (max-width: 720px) {
+    body {
+      flex-direction: column;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
