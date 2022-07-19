@@ -1,0 +1,22 @@
+/* within this file we need the rules for both boxes to show colors  */
+
+.box-rules {
+    /* code within here will align the boxes to space out from each other  */
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    
+    
+}
+/* the next two select the colors for these boxes */
+.red-box{
+    background-color: red;
+}
+.green-box{
+    background-color: green;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
