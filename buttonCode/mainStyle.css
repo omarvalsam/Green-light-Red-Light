@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem;
+  height: 30vw;
+}
+body > div,
+body > section {
+  justify-content: space-evenly;
+  display: flex;
+}
+.title {
+  font-size: 3vw;
+  text-align: center;
+  padding-bottom: 10vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.middle {
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.mainConcept {
+  font-size: 6vw;
+}
+button {
+  width: 15%;
+  height: fit-content;
+}
+button {
+  box-shadow: 5px 3px #9c7781;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+}
+
+button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
